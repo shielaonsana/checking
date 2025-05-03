@@ -459,22 +459,26 @@ input:focus {
     padding: 50px 20px;
     text-align: center;
 }
+
 .testimonials-header {
     text-align: center;
     max-width: 800px;
     margin: 0 auto 50px;
 }
+
 .testimotinals-header h2 {
     font-size: 32px;
     color: #1F2937;
     margin-bottom: 15px;
     font-weight: 600;
 }
+
 .testimotinals-header p {
     font-size: 16px;
     color: #666666;
     line-height: 1.5;
 }
+
 .testimonials-container {
     display: flex;
     flex-wrap: wrap;
@@ -482,6 +486,7 @@ input:focus {
     gap: 30px;
     margin-bottom: 50px;
 }
+
 .testimonial-card {
     background-color: #fff;
     border-radius: 10px;
@@ -495,21 +500,25 @@ input:focus {
     text-align: left;
     margin-top: 80px;
 }
+
 .stars {
     color: #ffc107;
     font-size: 18px;
     margin-bottom: 15px;
 }
+
 .quote {
     color: #1F2937;
     font-size: 16px;
     margin-bottom: 30px;
     flex-grow: 1;
 }
+
 .patient-info {
     display: flex;
     align-items: center;
 }
+
 .patient-image {
     width: 60px;
     height: 60px;
@@ -517,15 +526,18 @@ input:focus {
     margin-right: 15px;
     object-fit: cover;
 }
+
 .patient-details {
     display: flex;
     flex-direction: column;
 }
+
 .patient-name {
     font-weight: 600;
     color: #1F2937;
     font-size: 16px;
 }
+
 .patient-type {
     color: #666;
     font-size: 14px;
@@ -626,6 +638,7 @@ input:focus {
     color: #fff;
     padding: 60px 0 0 0;
 }
+
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -634,22 +647,27 @@ input:focus {
     gap: 40px;
     padding: 0 20px 40px;
 }
+
 .footer-logo {
     grid-column: span 1;
 }
+
 .footer-logo-img {
     width: 100px;
     margin-bottom: 15px;
 }
+
 .footer-tagline {
     font-size: 14px;
     margin-bottom: 20px;
     line-height: 1.5;
 }
+
 .social-icons {
     display: flex;
     gap: 10px;
 }
+
 .social-icon {
     background-color: rgba(255, 255, 255, 0.1);
     width: 30px;
@@ -662,48 +680,58 @@ input:focus {
     transition: background-color 0.3s;
     text-decoration: none;
 }
+
 .social-icon:hover {
     background-color: #2980b9;
 }
+
 .footer-links,
 .footer-services,
 .footer-contact {
     grid-column: span 1;
 }
+
 .site-footer h3 {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: -15px;
     color: #fff;
 }
+
 .site-footer ul {
     font-size: 16px;
     list-style: none;
     padding: 0;
     color: #bbc5d0;
 }
+
 .site-footer ul li {
     margin-bottom: 10px;
     color: #bbc5d0;
 }
+
 .site-footer ul li a {
     color: #bbc5d0;
     text-decoration: none;
     transition: color 0.3s;
 }
+
 .site-footer ul li a:hover {
     color: #fff;
 }
+
 .contact-info li {
     display: flex;
     align-items: flex-start;
     gap: 10px;
     color: #bbc5d0;
 }
+
 .contact-info li i {
     color: #fff;
     margin-top: 4px;
 }
+
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     padding: 20px 0;
@@ -711,6 +739,7 @@ input:focus {
     margin: 0 auto;
     font-size: 14px;
 }
+
 .footer-bottom .copyright {
     text-align: center;
 }
@@ -870,7 +899,7 @@ input:focus {
 }
 
 .services-text p {
-    color: #333;
+    color: #666;
     font-size: 16px;
 }
 
@@ -896,13 +925,41 @@ ul li p {
     margin-left: 27px;
 }
 
+.stats1 {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.stat1 {
+    background-color: #f9fafb;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat1:hover {
+    background-color: #dadbdd;
+}
+
+.stat1 h3 {
+    font-size: 24px;
+    color: #3498db;
+}
+
+.stat1 p {
+    font-size: 14px;
+
+}
+
 .services-image {
     position: relative;
     flex: 1;
 }
 
 .services-image img {
-    width: 90%;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -1129,9 +1186,9 @@ ul li p {
     font-size: 25px;
 }
 
-.core-valies {
+.core-values {
     padding: 50px 20px;
-    background-color: #f8f9fa;
+    background-color: #fff;
 }
 
 .cv-header {
@@ -1486,12 +1543,13 @@ textarea.form-control {
 }
 
 /* Media Queries for Responsiveness */
-
+/*index.html*/
 /* Large tablets and small desktops */
 @media screen and (max-width: 1024px) {
     .navbar {
-        padding: 0px 50px;  
+        padding: 0px 50px;
     }
+
     .hero {
         padding: 80px 60px;
     }
@@ -1525,16 +1583,16 @@ textarea.form-control {
         gap: 25px;
         max-width: 800px;
     }
-    
+
     .service-card {
         padding: 25px;
     }
-    
+
     .service-icon {
         width: 45px;
         height: 45px;
     }
-    
+
     .service-icon i {
         font-size: 22px;
     }
@@ -1542,19 +1600,23 @@ textarea.form-control {
     .testimonials-section {
         padding: 80px 60px;
     }
+
     .testimonials-header {
         max-width: 700px;
         margin: 0 auto 40px;
     }
+
     .testimotinals-header h2 {
         font-size: 30px;
         margin-bottom: 16px;
     }
+
     .testimonials-container {
         gap: 25px;
         max-width: 950px;
         margin: 0 auto 50px;
     }
+
     .testimonial-card {
         min-width: 280px;
         max-width: 320px;
@@ -1562,13 +1624,16 @@ textarea.form-control {
         margin-top: 20px;
         transition: transform 0.3s ease;
     }
+
     .testimonial-card:hover {
         transform: translateY(-5px);
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     }
+
     .quote {
         line-height: 1.6;
     }
+
     .stars {
         margin-bottom: 18px;
     }
@@ -1580,11 +1645,11 @@ textarea.form-control {
     .cta-content {
         padding: 40px;
     }
-    
+
     .cta-content h2 {
         font-size: 26px;
     }
-    
+
     .cta-container {
         margin-top: 40px;
         margin-bottom: 40px;
@@ -1594,23 +1659,23 @@ textarea.form-control {
         gap: 30px;
         padding: 0 60px 30px;
     }
-    
+
     .site-footer h3 {
         font-size: 17px;
     }
-    
+
     .site-footer ul {
         font-size: 15px;
     }
-    
+
     .footer-logo-img {
         width: 90px;
     }
-    
+
     .footer-tagline {
         font-size: 13px;
     }
-    
+
     .contact-info li {
         font-size: 14px;
     }
@@ -1705,28 +1770,28 @@ textarea.form-control {
     .medical-services {
         padding: 60px 40px;
     }
-    
+
     .services-header {
         margin-bottom: 40px;
     }
-    
+
     .services-header h2 {
         font-size: 28px;
     }
-    
+
     .services-header p {
         font-size: 15px;
         padding: 0 20px;
     }
-    
+
     .services-container {
         gap: 20px;
     }
-    
+
     .service-card h3 {
         font-size: 17px;
     }
-    
+
     .service-card p {
         font-size: 15px;
     }
@@ -1734,20 +1799,25 @@ textarea.form-control {
     .testimonials-section {
         padding: 60px 40px;
     }
+
     .testimonials-header {
         margin-bottom: 30px;
     }
+
     .testimonial-card {
         min-width: 240px;
         max-width: 100%;
         margin-top: 40px;
     }
+
     .testimotinals-header h2 {
         font-size: 26px;
     }
+
     .testimotinals-header p {
         font-size: 15px;
     }
+
     .quote {
         font-size: 15px;
     }
@@ -1756,27 +1826,27 @@ textarea.form-control {
         flex-direction: column-reverse;
         margin-top: 20px;
         margin-bottom: 20px;
-        
+
     }
-    
+
     .cta-content {
         padding: 30px;
     }
-    
+
     .cta-content h2 {
         font-size: 24px;
         text-align: center;
     }
-    
+
     .cta-content p {
         text-align: center;
         margin-bottom: 25px;
     }
-    
+
     .cta-buttons {
         justify-content: center;
     }
-    
+
     .cta-image {
         height: 300px;
     }
@@ -1784,24 +1854,24 @@ textarea.form-control {
     .site-footer {
         padding: 40px 0 0 0;
     }
-    
+
     .footer-container {
         gap: 30px 40px;
     }
-    
+
     .footer-logo {
         text-align: center;
         margin-bottom: 10px;
     }
-    
+
     .footer-logo-img {
         width: 80px;
     }
-    
+
     .social-icons {
         justify-content: center;
     }
-    
+
     .site-footer h3 {
         margin-bottom: -10px;
         font-size: 16px;
@@ -1814,7 +1884,7 @@ textarea.form-control {
     .footer-links ul {
         font-size: 10px;
     }
-    
+
     .footer-bottom {
         padding: 15px 20px;
     }
@@ -1852,15 +1922,15 @@ textarea.form-control {
         grid-template-columns: 1fr;
         max-width: 450px;
     }
-    
+
     .service-card {
         padding: 25px 20px;
     }
-    
+
     .services-header {
         margin-bottom: 30px;
     }
-    
+
     .medical-services {
         padding: 35px 15px;
     }
@@ -1870,11 +1940,13 @@ textarea.form-control {
         align-items: center;
         gap: 40px;
     }
+
     .testimonial-card {
         width: 100%;
         max-width: 450px;
         margin-top: 0;
     }
+
     .testimonials-header {
         margin-bottom: 20px;
     }
@@ -1882,21 +1954,21 @@ textarea.form-control {
     .cta-section {
         padding: 30px 15px;
     }
-    
+
     .cta-content {
         padding: 25px 20px;
     }
-    
+
     .cta-content h2 {
         font-size: 22px;
         margin-bottom: 12px;
     }
-    
+
     .cta-content p {
         font-size: 15px;
         margin-bottom: 20px;
     }
-    
+
     .cta-image {
         height: 250px;
     }
@@ -1904,29 +1976,29 @@ textarea.form-control {
     .site-footer {
         padding: 30px 0 0 0;
     }
-    
+
     .footer-container {
         grid-template-columns: 1fr;
         gap: 25px;
         padding: 0 15px 25px;
     }
-    
-    .footer-logo, 
+
+    .footer-logo,
     .footer-links,
     .footer-services,
     .footer-contact {
         grid-column: 1;
         text-align: center;
     }
-    
+
     .contact-info li {
         justify-content: center;
     }
-    
+
     .site-footer h3 {
         font-size: 16px;
     }
-    
+
     .footer-bottom {
         padding: 15px;
     }
@@ -1985,67 +2057,68 @@ textarea.form-control {
     .doctors-section {
         padding: 15px 25px;
     }
-    
+
     .doctors-header {
         margin-bottom: 25px;
     }
-    
+
     .doctors-header h2 {
         font-size: 22px;
         margin-bottom: 10px;
     }
-    
+
     .doctors-header p {
         font-size: 12px;
         padding: 0 10px;
         line-height: 1.4;
     }
-    
+
     .doctor-card {
         width: 300px;
         height: 400px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     }
-    
+
     .doctor-card img {
-        aspect-ratio: 4/3;  /* Slightly shorter images on mobile */
+        aspect-ratio: 4/3;
+        /* Slightly shorter images on mobile */
     }
-    
+
     .doctor-info {
         padding: 15px;
     }
-    
+
     .doctor-info h3 {
         font-size: 15px;
     }
-    
+
     .specialty {
         font-size: 13px;
     }
-    
+
     .rating {
         font-size: 15px;
     }
-    
+
     .rating span {
         font-size: 13px;
     }
-    
+
     .availability {
         font-size: 13px;
         margin-bottom: 12px;
     }
-    
+
     .btn-appoint {
         padding: 8px 0;
         font-size: 14px;
     }
-    
+
     .view-all {
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    
+
     .view-all-btn {
         padding: 8px 18px;
         font-size: 14px;
@@ -2054,46 +2127,46 @@ textarea.form-control {
     .medical-services {
         padding: 30px 25px;
     }
-    
+
     .services-header {
         margin-bottom: 25px;
     }
-    
+
     .services-header h2 {
         font-size: 22px;
         margin-bottom: 10px;
     }
-    
+
     .services-header p {
         font-size: 12px;
         padding: 0 10px;
         line-height: 1.5;
     }
-    
+
     .services-container {
         gap: 15px;
     }
-    
+
     .service-card {
         padding: 20px 15px;
         border-radius: 8px;
     }
-    
+
     .service-icon {
         width: 40px;
         height: 40px;
         margin-bottom: 15px;
     }
-    
+
     .service-icon i {
         font-size: 20px;
     }
-    
+
     .service-card h3 {
         font-size: 16px;
         margin-bottom: 8px;
     }
-    
+
     .service-card p {
         font-size: 14px;
         line-height: 1.4;
@@ -2103,32 +2176,40 @@ textarea.form-control {
         padding: 30px 25px;
         margin-bottom: -20px;
     }
+
     .testimotinals-header h2 {
         font-size: 22px;
         margin-bottom: 10px;
     }
+
     .testimotinals-header p {
         font-size: 12px;
         margin-bottom: 30px;
     }
+
     .testimonial-card {
         padding: 20px;
     }
+
     .stars {
         font-size: 16px;
         margin-bottom: 10px;
     }
+
     .quote {
         margin-bottom: 20px;
         font-size: 14px;
     }
+
     .patient-image {
         width: 50px;
         height: 50px;
     }
+
     .patient-name {
         font-size: 15px;
     }
+
     .patient-type {
         font-size: 13px;
     }
@@ -2136,35 +2217,36 @@ textarea.form-control {
     .cta-section {
         padding: 30px 25px;
     }
-    
+
     .cta-container {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    
+
     .cta-content {
         padding: 20px 15px;
     }
-    
+
     .cta-content h2 {
         font-size: 20px;
     }
-    
+
     .cta-content p {
         font-size: 14px;
     }
-    
+
     .cta-buttons {
         flex-direction: column;
         gap: 10px;
     }
-    
-    .btn-book-now, .btn-contact {
+
+    .btn-book-now,
+    .btn-contact {
         padding: 10px 20px;
         width: 100%;
         text-align: center;
     }
-    
+
     .cta-image {
         height: 200px;
     }
@@ -2175,13 +2257,13 @@ textarea.form-control {
         padding: 0px 25px;
         margin-top: -25px;
     }
-    
+
     .footer-logo {
         width: 100%;
         text-align: center;
         margin-bottom: 25px;
     }
-    
+
     /* Place Quick Links, Services, and Contact side by side */
     .footer-links,
     .footer-services {
@@ -2197,38 +2279,38 @@ textarea.form-control {
         vertical-align: top;
         text-align: left;
     }
-   
+
     .site-footer {
         padding: 40px 0 0 0;
     }
-    
+
     .site-footer h3 {
         margin-bottom: -10px;
         font-size: 16px;
     }
-    
+
     .site-footer ul {
         font-size: 14px;
     }
-    
+
     .social-icons {
         justify-content: center;
         margin-bottom: 10px;
     }
-    
+
     .footer-bottom {
         padding: 15px;
         width: 380px;
         align-items: center;
     }
-    
+
     .footer-tagline {
         margin-bottom: 15px;
     }
-    
+
     /* Adjust contact info for smaller width */
     .contact-info li {
-        display: flex;  
+        display: flex;
         flex-direction: row;
         align-items: flex-start;
         gap: 0px;
@@ -2236,9 +2318,10 @@ textarea.form-control {
         margin-bottom: 5px;
         justify-content: left;
     }
-  
+
 }
 
+/*END OF INDEX.HTML*/
 
 /*doctor.html*/
 
@@ -2247,13 +2330,21 @@ textarea.form-control {
         padding: 80px 60px;
         height: 35vh;
     }
-    
+
     .doctor-hero h1 {
         font-size: 28px;
     }
+
+    .page-container {
+        padding: 30px;
+        gap: 20px;
+    }
+
+    .doctor-card {
+        width: calc(50% - 13px);
+    }
 }
 
-/* Medium screens */
 @media screen and (max-width: 768px) {
     .doctor-hero {
         padding: 60px 40px;
@@ -2261,15 +2352,15 @@ textarea.form-control {
         justify-content: center;
         text-align: center;
     }
-    
+
     .doctor-hero h1 {
         font-size: 26px;
     }
-    
+
     .doctor-hero p {
         font-size: 15px;
     }
-    
+
     .doctor-hero p br {
         display: none;
     }
@@ -2277,37 +2368,66 @@ textarea.form-control {
     .btn-book {
         margin-top: -15px;
     }
+
+    .page-container {
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .doctors-cardss {
+        gap: 20px;
+
+    }
+
+    .doctor-card {
+        width: calc(50% - 10px);
+    }
 }
 
-/* Small screens */
 @media screen and (max-width: 600px) {
     .doctor-hero {
         padding: 50px 30px;
         height: auto;
         min-height: 25vh;
     }
-    
+
     .doctor-hero h1 {
         font-size: 24px;
         margin-bottom: 15px;
     }
-    
+
     .doctor-hero p {
         font-size: 14px;
         margin-bottom: 25px;
     }
+
+    .doctors-cardss {
+        gap: 15px;
+    }
+
+    .doctor-card {
+        width: 100%;
+    }
+
+    .doctor-card img {
+        height: 180px;
+    }
 }
 
-/* Extra small screens */
 @media screen and (max-width: 480px) {
     .doctor-hero {
         padding: 40px 20px;
     }
-    
+
     .doctor-hero h1 {
         font-size: 22px;
     }
-    
+
     .doctor-hero {
         padding: 10px 20px;
         font-size: 14px;
@@ -2321,62 +2441,15 @@ textarea.form-control {
         text-align: center;
         margin-bottom: 10px;
     }
-}
 
-@media screen and (max-width: 1024px) {
-    .page-container {
-        padding: 30px;
-        gap: 20px;
-    }
-    
-    .doctor-card {
-        width: calc(50% - 13px);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .page-container {
-        flex-direction: column;
-        padding: 25px;
-    }
-    
-    .sidebar {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    
-    .doctors-cardss {
-        gap: 20px;
-    
-    }
-    
-    .doctor-card {
-        width: calc(50% - 10px);
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .doctors-cardss {
-        gap: 15px;
-    }
-    
-    .doctor-card {
-        width: 100%;
-    }
-    
-    .doctor-card img {
-        height: 180px;
-    }
-}
-
-@media screen and (max-width: 480px) {
     .page-container {
         padding: 15px;
     }
-    
+
     .sidebar {
         padding: 15px;
     }
+
     .doctor-card {
         height: 360px;
     }
@@ -2384,17 +2457,717 @@ textarea.form-control {
     .doctor-info {
         padding: 15px;
     }
-    
+
     .doctor-info h3 {
         font-size: 16px;
     }
-    
+
     .filter-group select,
     .btn-appoint {
         padding: 8px 10px;
     }
-    
+
     .view-all-btn {
         padding: 10px 20px;
     }
 }
+
+/*END OF DOCTOR.HTML*/
+
+/*SERVICES.HTML*/
+
+@media screen and (max-width: 1024px) {
+    .service-hero {
+        padding: 80px 60px;
+        height: 35vh;
+    }
+
+    .service-hero h1 {
+        font-size: 28px;
+    }
+
+    .services {
+        padding: 80px 100px;
+        gap: 60px;
+    }
+
+    .services-text h2 {
+        font-size: 28px;
+    }
+
+    .stats1 {
+        gap: 20px;
+    }
+
+    .stat1 h3 {
+        font-size: 24px;
+    }
+
+    .stat1 p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .service-hero {
+        padding: 60px 40px;
+        height: 30vh;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .service-hero h1 {
+        font-size: 26px;
+    }
+
+    .service-hero p {
+        font-size: 15px;
+    }
+
+    .service-hero p br {
+        display: none;
+    }
+
+    .btn-book {
+        margin-top: -15px;
+    }
+
+    .services {
+        flex-direction: column;
+        padding: 60px 50px;
+        gap: 40px;
+    }
+
+    .services-text {
+        width: 100%;
+    }
+
+    .services-image {
+        width: 100%;
+    }
+
+    .service-hero {
+        padding: 80px 40px;
+    }
+
+    .stats1 {
+        flex-wrap: wrap;
+    }
+
+    .stat1 {
+        flex: 1;
+        min-width: 150px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .service-hero {
+        padding: 50px 30px;
+        height: auto;
+        min-height: 25vh;
+    }
+
+    .service-hero h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .service-hero p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .services {
+        padding: 40px 30px;
+    }
+
+    .services-text h2 {
+        font-size: 24px;
+    }
+
+    .stats1 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .service-hero {
+        padding: 60px 30px;
+        height: 30vh;
+    }
+
+    ul li p {
+        margin-left: 25px;
+    }
+
+
+}
+
+@media screen and (max-width: 480px) {
+    .service-hero {
+        padding: 40px 20px;
+    }
+
+    .service-hero h1 {
+        font-size: 22px;
+    }
+
+    .service-hero {
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn-book {
+        padding: 10px 20px;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .services {
+        padding: 30px 20px;
+    }
+
+    .services-text h2 {
+        font-size: 22px;
+    }
+
+    .services-text p {
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+
+    .service-badge {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .service-hero {
+        padding: 40px 20px;
+    }
+
+    .service-hero h1 {
+        font-size: 26px;
+    }
+
+    .service-hero p {
+        font-size: 14px;
+    }
+
+    .service-hero .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+/*END OF SERVICES.HTML*/
+
+/*ABOUT.HTML*/
+
+@media screen and (max-width: 1024px) {
+    .doctor-hero {
+        padding: 80px 60px;
+        height: 35vh;
+    }
+
+    .doctor-hero h1 {
+        font-size: 28px;
+    }
+
+    .our-story {
+        padding: 80px 60px;
+        gap: 60px;
+    }
+
+    .stats {
+        gap: 40px;
+    }
+
+    .story-text h2 {
+        font-size: 28px;
+    }
+
+    .mv-container {
+        max-width: 900px;
+    }
+
+    .cv-container {
+        max-width: 900px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .leadership-team {
+        padding: 30px 60px;
+    }
+
+    .lt-cards {
+        gap: 30px;
+    }
+
+    .lt-card {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-hero {
+        padding: 60px 40px;
+        height: 30vh;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about-hero h1 {
+        font-size: 26px;
+    }
+
+    .about-hero p {
+        font-size: 15px;
+    }
+
+    .about-hero p br {
+        display: none;
+    }
+
+    .btn {
+        margin-top: -15px;
+    }
+
+    .our-story {
+        flex-direction: column;
+        padding: 60px 40px;
+        gap: 50px;
+    }
+
+    .story-image {
+        width: 100%;
+    }
+
+    .story-image img {
+        width: 100%;
+    }
+
+    .badge {
+        left: 18%;
+        transform: translateX(-50%);
+    }
+
+    .stats {
+        justify-content: space-between;
+    }
+
+    .mv-container {
+        grid-template-columns: 1fr;
+        max-width: 600px;
+        gap: 20px;
+    }
+
+    .cv-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        max-width: 600px;
+    }
+
+    .mv-header h2,
+    .cv-header h2 {
+        font-size: 28px;
+    }
+
+    .mv-header,
+    .cv-header {
+        margin-bottom: 30px;
+    }
+
+    .mv-card,
+    .cv-card {
+        padding: 25px;
+    }
+
+    .leadership-team {
+        padding: 5px 60px;
+
+    }
+
+    .lt-container {
+        margin-bottom: 50px;
+    }
+
+    .lt-header {
+        margin-bottom: 30px;
+    }
+
+    .lt-header h2 {
+        font-size: 28px;
+    }
+
+    .lt-cards {
+        gap: 20px;
+    }
+
+    .lt-card {
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .about-hero {
+        padding: 50px 30px;
+        height: auto;
+        min-height: 25vh;
+    }
+
+    .about-hero h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .about-hero p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .our-story {
+        padding: 50px 30px;
+    }
+
+    .stats {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .stat {
+        flex: 1 1 calc(50% - 20px);
+        min-width: calc(50% - 20px);
+    }
+
+    .cv-container {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+    }
+
+    .mission-vision,
+    .core-values {
+        padding: 40px 15px;
+    }
+
+    .mv-header h2,
+    .cv-header h2 {
+        font-size: 24px;
+    }
+
+    .cv-header {
+        margin-top: 30px;
+    }
+
+    .leadership-team {
+        padding: 40px 15px;
+    }
+
+    .lt-header {
+        margin-top: 30px;
+    }
+
+    .lt-cards {
+        gap: 30px;
+    }
+
+    .lt-card {
+        width: 240px;
+    }
+
+    .lt-info h3 {
+        font-size: 16px;
+    }
+
+    .lt-info p,
+    .lt-info small {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-hero {
+        padding: 40px 20px;
+    }
+
+    .about-hero h1 {
+        font-size: 22px;
+    }
+
+    .about-hero {
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .our-story {
+        padding: 40px 25px;
+    }
+
+    .story-text h2 {
+        font-size: 24px;
+    }
+
+    .story-text p {
+        font-size: 14px;
+    }
+
+    .stats {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stat {
+        width: 100%;
+    }
+
+    .badge {
+        margin-left: 30px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .mission-vision,
+    .core-values {
+        padding: 40px 25px;
+
+    }
+
+    .mv-card,
+    .cv-card {
+        padding: 20px;
+
+    }
+
+    .mv-icon,
+    .cv-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .mv-icon i,
+    .cv-icon i {
+        font-size: 20px;
+    }
+
+    .mv-header h2,
+    .cv-header h2 {
+        font-size: 22px;
+    }
+
+    .mv-card h3,
+    .cv-card h3 {
+        font-size: 16px;
+    }
+
+    .mv-card p,
+    .cv-card p,
+    .mv-header p,
+    .cv-header p {
+        font-size: 14px;
+    }
+
+    .lt-header h2 {
+        font-size: 24px;
+    }
+
+    .lt-header p {
+        font-size: 14px;
+    }
+
+    .lt-cards {
+        gap: 20px;
+    }
+
+    .lt-card {
+        width: 100%;
+        max-width: 280px;
+    }
+}
+
+/*END OF ABOUT.HTML*/
+
+/*CONTACT.HTML*/
+@media screen and (max-width: 1024px) {
+    .contact-hero {
+        padding: 80px 60px;
+        height: 35vh;
+    }
+
+    .contact-hero h1 {
+        font-size: 28px;
+    }
+
+    .main-content {
+        padding: 80px 60px;
+    }
+
+    .content-column {
+        min-width: 280px;
+    }
+
+    .card-1 {
+        height: auto;
+    }
+
+    .card-2 {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-hero {
+        padding: 60px 40px;
+        height: 30vh;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact-hero h1 {
+        font-size: 26px;
+    }
+
+    .contact-hero p {
+        font-size: 15px;
+    }
+
+    .contact-hero p br {
+        display: none;
+    }
+
+    .btn-book {
+        margin-top: -15px;
+    }
+
+    .main-content {
+        padding: 60px 40px;
+    }
+
+    .content-row {
+        flex-direction: column;
+    }
+
+    .content-column {
+        flex: 1 0 100%;
+        max-width: 100%;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+
+    .card,
+    .card-1,
+    .card-2 {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .contact-hero {
+        padding: 50px 30px;
+        height: auto;
+        min-height: 25vh;
+    }
+
+    .contact-hero h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .contact-hero p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .main-content {
+        padding: 40px 30px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .contact-item {
+        flex-direction: column;
+    }
+
+    .contact-icon {
+        margin-bottom: 10px;
+    }
+
+    .submit-btn {
+        width: 100%;
+        padding: 12px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-hero {
+        padding: 40px 20px;
+    }
+
+    .contact-hero h1 {
+        font-size: 22px;
+    }
+
+    .contact-hero {
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn-book {
+        padding: 10px 20px;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .main-content {
+        padding: 30px 20px;
+    }
+
+    .form-control {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .hours-table td {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .contact-details p {
+        font-size: 14px;
+    }
+
+    .card,
+    .card-1,
+    .card-2 {
+        padding: 20px 15px;
+    }
+
+}
+
+/*END OF CONTACT.HTML*/
