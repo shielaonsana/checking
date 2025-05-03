@@ -707,11 +707,11 @@ input:focus {
 
 .site-footer ul li {
     margin-bottom: 10px;
-    color: #bbc5d0;
+    color: #D1D5DB;
 }
 
 .site-footer ul li a {
-    color: #bbc5d0;
+    color: #D1D5DB;
     text-decoration: none;
     transition: color 0.3s;
 }
