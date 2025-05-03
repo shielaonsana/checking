@@ -328,11 +328,11 @@
                 font-size: 11px;
             }
 
-            .form-group .account-type label{
+            .form-group .account-type label {
                 margin-left: -290px;
                 padding: 0px 290px;
             }
-            
+
         }
     </style>
 </head>
@@ -427,7 +427,7 @@
 
                 <div class="form-group">
                     <label>Account Type</label>
-                    <div class="account-type" >
+                    <div class="account-type">
                         <label>
                             <input type="radio" name="account-type" value="patient" checked> Patient
                         </label>
@@ -513,6 +513,24 @@
 
     <script src="script/script.js"></script>
     <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.getElementById('menu-toggle');
+            const navContainer = document.getElementById('nav-container');
+
+            if (menuToggle && navContainer) {
+                menuToggle.addEventListener('click', function () {
+                    navContainer.classList.toggle('active');
+                });
+
+                // Close menu when clicking on a nav link
+                const navLinks = document.querySelectorAll('.nav-links li a');
+                navLinks.forEach(link => {
+                    link.addEventListener('click', function () {
+                        navContainer.classList.remove('active');
+                    });
+                });
+            }
+        });
         // Toggle menu for mobile
         const menuToggle = document.getElementById('menu-toggle');
         const navContainer = document.getElementById('nav-container');
