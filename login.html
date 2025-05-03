@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+                <img src="images\logo.png" alt="AppointMed Logo">
+                <span>Appoint<span class="highlight">Med</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#services">About</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+    <a class="back-home" href="#"><i class="fas fa-arrow-left"></i> Back to Home</a>
+  </header>
+
+  <!-- Login Form -->
+  <div class="login-container">
+    <div class="login-card">
+      <h2>Welcome Back</h2>
+      <p>Sign in to access your healthcare account</p>
+
+      <label for="email">Email or Username</label>
+      <input type="text" id="email" placeholder="Enter your email or username" />
+
+      <label for="password">Password 
+        <a href="#" class="forgot">Forgot password?</a>
+      </label>
+      <div class="password-wrapper">
+        <input type="password" id="password" placeholder="Enter your password" />
+        <i class="fas fa-eye toggle-password"></i>
+      </div>
+
+      <div class="remember">
+        <input type="checkbox" id="remember" />
+        <label for="remember">Remember me</label>
+      </div>
+
+      <button class="login-btn">Login</button>
+
+      <div class="divider">or continue with</div>
+
+      <div class="social-buttons">
+        <button class="google-btn"><i class="fab fa-google"></i> Google</button>
+        <button class="facebook-btn"><i class="fab fa-facebook-f"></i> Facebook</button>
+      </div>
+
+      <p class="signup-link">Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
