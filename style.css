@@ -2612,6 +2612,7 @@ textarea.form-control {
 
     .service-hero h1 {
         font-size: 22px;
+        margin-top: 10px;
     }
 
     .service-hero {
@@ -2909,12 +2910,13 @@ textarea.form-control {
         text-align: center;
     }
 
-    .btn {
+    .btn-book {
         padding: 10px 20px;
         font-size: 14px;
         text-align: center;
         margin-bottom: 10px;
     }
+
 
     .our-story {
         padding: 40px 25px;
