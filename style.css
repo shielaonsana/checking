@@ -2003,7 +2003,7 @@ textarea.form-control {
     
     .doctor-card {
         width: 300px;
-        height: 410px;
+        height: 400px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     }
     
@@ -2237,4 +2237,164 @@ textarea.form-control {
         justify-content: left;
     }
   
+}
+
+
+/*doctor.html*/
+
+@media screen and (max-width: 1024px) {
+    .doctor-hero {
+        padding: 80px 60px;
+        height: 35vh;
+    }
+    
+    .doctor-hero h1 {
+        font-size: 28px;
+    }
+}
+
+/* Medium screens */
+@media screen and (max-width: 768px) {
+    .doctor-hero {
+        padding: 60px 40px;
+        height: 30vh;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .doctor-hero h1 {
+        font-size: 26px;
+    }
+    
+    .doctor-hero p {
+        font-size: 15px;
+    }
+    
+    .doctor-hero p br {
+        display: none;
+    }
+
+    .btn-book {
+        margin-top: -15px;
+    }
+}
+
+/* Small screens */
+@media screen and (max-width: 600px) {
+    .doctor-hero {
+        padding: 50px 30px;
+        height: auto;
+        min-height: 25vh;
+    }
+    
+    .doctor-hero h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    
+    .doctor-hero p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+}
+
+/* Extra small screens */
+@media screen and (max-width: 480px) {
+    .doctor-hero {
+        padding: 40px 20px;
+    }
+    
+    .doctor-hero h1 {
+        font-size: 22px;
+    }
+    
+    .doctor-hero {
+        padding: 10px 20px;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn-book {
+        padding: 10px 20px;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .page-container {
+        padding: 30px;
+        gap: 20px;
+    }
+    
+    .doctor-card {
+        width: calc(50% - 13px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page-container {
+        flex-direction: column;
+        padding: 25px;
+    }
+    
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .doctors-cardss {
+        gap: 20px;
+    
+    }
+    
+    .doctor-card {
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .doctors-cardss {
+        gap: 15px;
+    }
+    
+    .doctor-card {
+        width: 100%;
+    }
+    
+    .doctor-card img {
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .page-container {
+        padding: 15px;
+    }
+    
+    .sidebar {
+        padding: 15px;
+    }
+    .doctor-card {
+        height: 360px;
+    }
+
+    .doctor-info {
+        padding: 15px;
+    }
+    
+    .doctor-info h3 {
+        font-size: 16px;
+    }
+    
+    .filter-group select,
+    .btn-appoint {
+        padding: 8px 10px;
+    }
+    
+    .view-all-btn {
+        padding: 10px 20px;
+    }
 }
