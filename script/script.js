@@ -108,4 +108,4 @@ document.getElementById('menu-toggle').addEventListener('click', function () {
 });
 
 
-/*signup.html*/
+/*booking.html*/
